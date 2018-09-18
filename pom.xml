@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.zhoujie.tc</groupId>
+  <artifactId>tc-parent</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>TCP</name>
+  <description>Parent project for TC</description>
+  <modules>
+    <module>tc</module>
+  </modules>
+  <properties>
+     <android.version>2.3.1</android.version>
+     <jetty.version>7.5.4.v20111024</jetty.version>
+     <servlet.version>2.5-20081211</servlet.version>
+  </properties>
+</project>
